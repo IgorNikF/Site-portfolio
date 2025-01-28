@@ -1,0 +1,146 @@
+/* Импортирую текс Michroma с сайта https://fonts.google.com/.
+Ссылку https://fonts.googleapis.com/css?family=Roboto&display=swap
+взял на сайте https://developers.google.com/, в разделе
+Использовать шрифт-дисплей и заменил Roboto на Michroma */
+/* @import url('https://fonts.googleapis.com/css?family=Michroma&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+body {
+    /* Подключил шрифт к всему тегу body, все шрифты в теге body будут
+    Michroma, а если он не прогрузится, то дополнительно указан шрифт serif */
+    font-family: Tektur, serif, Michroma;
+    font-size: 20px;
+    /* Разные эффекты (видео,аудио и т.д.) на сайте https://webcode.tools/ */
+    background: linear-gradient(90deg, #0400ff 0%, #141414 100%);
+    position: relative;
+}
+
+p,
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .text:hover {
+    color: rgb(21, 110, 80);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(208, 194, 0);
+}
+
+.navbar-nav {
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(11, 187, 128);
+}
+
+.sidebar,
+.card {
+    color: aquamarine;
+    background: linear-gradient(270deg, #0400ff 0%, #141414 100%);
+}
+
+.btn-primary {
+    color: #8886ee;
+    
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+.sidebar h3,
+.sidebar .p-link {
+    text-align: center;
+}
+
+.slide-text p {
+    padding-right: 6rem;
+}
+
+.pop-ap_link {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.pop-ap_link:hover {
+    color: rgb(0, 152, 101);
+}
+
+.modal-body p {
+    padding: 0 1rem;
+    text-indent: 2rem;
+}
+
+.btn_back_form {
+    margin-top: 1em;
+    text-align: center;
+}
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(270deg, #0400ff 0%, #141414 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Качающейся телефон анимация, с сайта https://webcode.tools/ */
+.call-anim {
+    animation: call 2s ease 0s 25 normal forwards;
+}
+
+/* Описание анимации по времени */
+@keyframes call {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+/* Чтобы кнопки прокрутки карусели не отображались на мобильных
+устройствах, т.к. они на них могут не вместиться и залесть на текст */
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}

@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="source/BootstrapCSS/bootstrap.min.css">
+
+    <link rel="stylesheet" href="source/styles/mystyle.css">
+    <link rel="stylesheet" href="source/styles/pop-up_windows.css">
+    <link rel="stylesheet" href="source/styles/contact.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
+
+    <title>Portfolio - IgorLuch</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="source/files/Logo.jpg" alt="..."></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text" aria-current="page" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text" href="presentation.html">Презентация</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text" href="other.html">Разное</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto: luchigor@inbox.ru? subject=Обращение с предложением.">
+                                <img style="width: 41px; margin-left: 0.1em;" src="source/files/envelope.jpg"
+                                    alt="mail"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://t.me/fnigor" target="_blank">
+                                <img style="width: 30px; margin-inline: 0.1em;" src="source/files/tg.png" alt="tg">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://vk.com/id685263522" target="_blank">
+                                <img style="width: 30px; margin-left: 0.1em;" src="source/files/vk.png" alt="vk">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col-lg-1">
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <div class="row">
+                        <!-- Карточка 1 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center bg-style"
+                                    data-bs-toggle="modal" data-bs-target="#neirosety-sertifikat"><img
+                                        src="source/diploms/neirosety-sertifikat.jpg" class="card-img-top"
+                                        alt="neirosety-sertifikat"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#neirosety-sertifikat">
+                                        <h5 class="card-title">Нейросети: практическое применение в бизнесе</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="neirosety-sertifikat" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body">
+                                        <img src="source/diploms/neirosety-sertifikat.jpg" alt="neirosety-sertifikat">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 2 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#diplom-wrap"><img style="width: 50%;"
+                                        src="source/diploms/diplom-wrap.jpg" class="card-img-top" alt="diplom-wrap"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#diplom-wrap">
+                                        <h5 class="card-title">Диплом-Python Synergy</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="diplom-wrap" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img style="width: 50%;" src="source/diploms/diplom-wrap.jpg" alt="diplom-wrap">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 3 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#diplome"><img src="source/diploms/diplome.jpg" class="card-img-top"
+                                        alt="diplome"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#diplome">
+                                        <h5 class="card-title">Диплом Python-разработчик</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="diplome" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/diplome.jpg" alt="diplome">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 4 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#Osnovyi_yazyika_programmirovaniya_Python"><img
+                                        src="source/diploms/Osnovyi yazyika programmirovaniya Python.jpg"
+                                        class="card-img-top" alt="Osnovyi_yazyika_programmirovaniya_Python"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#Osnovyi_yazyika_programmirovaniya_Python">
+                                        <h5 class="card-title">Основы языка Python</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="Osnovyi_yazyika_programmirovaniya_Python" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/Osnovyi yazyika programmirovaniya Python.jpg"
+                                            alt="Osnovyi yazyika programmirovaniya Python">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 5 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#Algoritmyi_i_strukturyi_dannyih"><img
+                                        src="source/diploms/Algoritmyi i strukturyi dannyih.jpg" class="card-img-top"
+                                        alt="Algoritmyi i strukturyi dannyih"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#Algoritmyi_i_strukturyi_dannyih">
+                                        <h5 class="card-title">Алгоритмы и структуры данных</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="Algoritmyi_i_strukturyi_dannyih" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/Algoritmyi i strukturyi dannyih.jpg"
+                                            alt="Algoritmyi i strukturyi dannyih">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 6 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#Python_dlya_analiza_dannyih"><img
+                                        src="source/diploms/Python dlya analiza dannyih.jpg" class="card-img-top"
+                                        alt="Python dlya analiza dannyih"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#Python_dlya_analiza_dannyih">
+                                        <h5 class="card-title">Python для анализа данных</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="Python_dlya_analiza_dannyih" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/Python dlya analiza dannyih.jpg"
+                                            alt="Python dlya analiza dannyih">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 7 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#Matematika_dlya_analiza_dannyih"><img
+                                        src="source/diploms/Matematika dlya analiza dannyih.jpg" class="card-img-top"
+                                        alt="Matematika dlya analiza dannyih"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#Matematika_dlya_analiza_dannyih">
+                                        <h5 class="card-title">Математика для анализа данных</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="Matematika_dlya_analiza_dannyih" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/Matematika dlya analiza dannyih.jpg"
+                                            alt="Matematika dlya analiza dannyih">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 8 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#Freymvorki"><img src="source/diploms/Freymvorki.jpg"
+                                        class="card-img-top" alt="Freymvorki"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#Freymvorki">
+                                        <h5 class="card-title">Фреймворки</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="Freymvorki" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/Freymvorki.jpg" alt="Freymvorki">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 9 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#Bazyi_dannyih"><img src="source/diploms/Bazyi dannyih.jpg"
+                                        class="card-img-top" alt="Bazyi dannyih"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#Bazyi_dannyih">
+                                        <h5 class="card-title">Базы данных</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="Bazyi_dannyih" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/Bazyi dannyih.jpg" alt="Bazyi dannyih">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 10 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#Linux_i_Docker"><img src="source/diploms/Linux i Docker.jpg"
+                                        class="card-img-top" alt="Linux i Docker"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#Linux_i_Docker">
+                                        <h5 class="card-title">Линукс и Докер</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="Linux_i_Docker" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/Linux i Docker.jpg" alt="Linux i Docker">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 11 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#Git"><img src="source/diploms/Git.jpg" class="card-img-top"
+                                        alt="Git"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal" data-bs-target="#Git">
+                                        <h5 class="card-title">Git</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="Git" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/Git.jpg" alt="Git">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 12 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#Angliyskiy_dlya_IT"><img
+                                        src="source/diploms/Angliyskiy dlya IT.jpg" class="card-img-top"
+                                        alt="Angliyskiy dlya IT"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#Angliyskiy_dlya_IT">
+                                        <h5 class="card-title">Английский для IT</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="Angliyskiy_dlya_IT" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/Angliyskiy dlya IT.jpg" alt="Angliyskiy dlya IT">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 13 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#stepik-sertifikat_s_otlichaem"><img
+                                        src="source/diploms/stepik-sertifikat_s_otlichaem.jpg" class="card-img-top"
+                                        alt="stepik-sertifikat_s_otlichaem"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#stepik-sertifikat_s_otlichaem">
+                                        <h5 class="card-title">Stepik - сертиф. Python с отличаем</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="stepik-sertifikat_s_otlichaem" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/stepik-sertifikat_s_otlichaem.jpg"
+                                            alt="stepik-sertifikat_s_otlichaem">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 14 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#stepik-sertificate"><img
+                                        src="source/diploms/stepik-sertificate.jpg" class="card-img-top"
+                                        alt="stepik-sertificate"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#stepik-sertificate">
+                                        <h5 class="card-title">Stepik - сертификат Python с отличаем</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="stepik-sertificate" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/stepik-sertificate.jpg" alt="stepik-sertificate">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 15 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#sertifikat2"><img src="source/diploms/sertifikat2.png"
+                                        class="card-img-top" alt="sertifikat2"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#sertifikat2">
+                                        <h5 class="card-title">GeekBrains</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="sertifikat2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/sertifikat2.png" alt="sertifikat2">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 16 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#sertifikat4"><img src="source/diploms/sertifikat4.png"
+                                        class="card-img-top" alt="sertifikat4"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#sertifikat4">
+                                        <h5 class="card-title">GeekBrains</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="sertifikat4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/sertifikat4.png" alt="sertifikat4">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+                        <!-- Карточка 17 начало -->
+                        <div class="col-lg-4 col-md-6 mt-4">
+                            <div class="card">
+                                <a type="button" class="btn-primary card-img-top text-center" data-bs-toggle="modal"
+                                    data-bs-target="#sertifikat5"><img src="source/diploms/sertifikat5.png"
+                                        class="card-img-top" alt="sertifikat5"></a>
+                                <div class="card-body">
+                                    <!-- Кнопка модального окна -->
+                                    <a type="button" class="btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#sertifikat5">
+                                        <h5 class="card-title">GeekBrains</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Начало модального окна -->
+                        <div class="modal fade" id="sertifikat5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content md-content">
+                                    <div class="modal-body ">
+                                        <img src="source/diploms/sertifikat5.png" alt="sertifikat5">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Свернуть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Карточка конец. Конец модально окна -->
+
+
+                    </div>
+                    <div class="col-lg-12 col-md-12 text-center mt-4">
+                        <p>Чем я могу быть Вам полезен?</p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 text-center">
+                        <img class="call-anim btn-primary" type="button" data-bs-toggle="modal"
+                            data-bs-target="#contakts" style="width: 40px;" src="source/files/phone.png" alt="phone">
+                    </div>
+                    <div class="btn_back_form">
+                        <a type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#pop-ap-form">Форма обратной связи</a>
+                    </div>
+                </div>
+
+                <!-- pop-ap_window start -->
+
+                <!-- Modal -->
+                <div class="modal fade" id="pop-ap-form" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="contacts-form" id="contacts-form">
+                                    <h2 class="heading">фрома обратной связи</h2>
+                                    <div class="row">
+                                        <form action="https://api.web3forms.com/submit" method="POST">
+                                            <input type="hidden" name="access_key"
+                                                value="42b4ea7b-bf8c-4707-a613-9bfa81782b78">
+
+                                            <span>Ваше имя</span>
+                                            <input type="text" name="Имя:" id="" class="box" required
+                                                placeholder="Введите Ваше имя..." autocomplete="off">
+
+                                            <span>Ваш e-mail</span>
+                                            <input type="email" name="e-mail:" id="" class="box" required
+                                                placeholder="Введите Ваш e-mail..." autocomplete="off">
+
+                                            <span>Ваш номер телефона</span>
+                                            <input type="phone" name="Номер тел:" id="" class="box" required
+                                                placeholder="Введите Ваш номер телефона..." autocomplete="off">
+
+                                            <span>Опишите свою креативную идею, предложение, заказ, замечания,
+                                                пожелания.</span>
+                                            <textarea name="Отправлен текст:" class="idea-box" required
+                                                placeholder="Введите текс здесь..."></textarea>
+
+                                            <span>Выберети пол</span>
+                                            <div class="gender">
+                                                <input type="radio" name="Пол:" id="male" value="male">
+                                                <label for="male">мужской</label>
+
+                                                <input type="radio" name="Пол:" id="female" value="female">
+                                                <label for="female">женский</label>
+
+                                            </div>
+                                            <div class="btn-conteiner-form">
+                                                <input type="submit" value="Отправить данные" class="btn_gen sub"
+                                                    name="send">
+                                                <input type="reset" value="Очистить форму" class="btn_gen res"
+                                                    name="send" style="margin-left: 4rem;">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- pop-ap_window end -->
+
+                <div class="col-lg-3 col-md-12">
+                    <div class="row px-2">
+                        <div class="col-lg-12 sidebar my-4">
+
+                            <h3>В 2024 году</h3>
+                            <p> с 20 мая по 14 июня проходил интенсив, так называемый "бассейн"
+                                в школе
+                                21, от Сбербанка. На
+                                основное обучение не остался, т.к. обещаное трудоустройство, как оказалось в
+                                дальнейшем,
+                                осталось только обещанным. Но язык Си, Git, Bash, Linux - Ubuntu я там
+                                "подкачал" и не только, получил массу положителбных эмоций.</p>
+                            <p class="p-link"><a class="p-link" type="button" data-bs-toggle="modal"
+                                    data-bs-target="#myself">Узнать больше>>></a></p>
+
+                            <div class="modal fade" id="myself" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 style="text-indent: 15rem;" class="modal-title fs-5"
+                                                id="exampleModalLabel">
+                                                Школа программирования 21</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div>
+                                                <img src="source/images/hotel.jpg" alt="hotel" class="school21">
+                                            </div>
+                                            <p> Гостиница, в которой мы (иногородние) прожили весь интенсив т.е. 25
+                                                дней.</p>
+                                            <div>
+                                                <img src="source/images/school21.jpg" alt="school21" class="school21">
+                                            </div>
+                                            <p>Школа программирования 21 от Сбербанка.</p>
+                                            <div>
+                                                <img src="source/images/school21_1.jpg" alt="school21_1"
+                                                    class="school21">
+                                            </div>
+                                            <p>Школа программирования 21 от Сбербанка.</p>
+                                            <div>
+                                                <img src="source/images/school21-kamboos1.jpg" alt="school21-kamboos1"
+                                                    class="school21">
+                                            </div>
+                                            <p>
+                                                Камбус школы 21, коллективное обсуждение.
+                                            </p>
+                                            <div>
+                                                <img src="source/images/school21-kamboos.jpg" alt="school21-kamboos"
+                                                    class="school21">
+                                            </div>
+                                            <p>
+                                                Плодотворно провел время. В кругу таких же как я заинтересованных
+                                                программированием людей, в теплоой дружественной обстановке.
+                                            </p>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-12 sidebar my-4">
+                            <h3>Регулярно посещаю</h3>
+                            <p> образовательный ресурс Stepik с целью пополнения знаний и
+                                отработки
+                                практических навыков.</p>
+                            <p class="p-link"><a href="#">Узнать больше>>></a></p>
+
+                        </div>
+                        <div class="col-lg-12 sidebar my-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit suscipit doloribus
+                                porro
+                                voluptatum possimus explicabo ea, quam nesciunt mollitia doloremque eligendi
+                                aperiam!
+                                Impedit, natus.</p>
+                            <p class="p-link"><a href="#">Узнать больше>>></a></p>
+                        </div>
+                        <div class="col-lg-12 sidebar my-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit suscipit doloribus
+                                ipsum
+                                porro voluptatum possimus explicabo ea, quam nesciunt mollitia doloremque
+                                eligendi
+                                aperiam! Impedit, natus.</p>
+                            <p class="p-link"><a href="#">Узнать больше>>></a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 footer-text text-center">
+                    <p>Все права защищены 2024</p>
+                </div>
+                <div class="col-lg-4 col-md-12 footer-text text-center">
+                    <!-- Modal -->
+                    <div class="modal fade" id="contakts" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header th">
+                                    <h1 class="modal-title fs-7" id="contakts">Контакты</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h2>Тел: +7 906 607 5090<br><br>e-mail: luch.in@mail.ru<br><br>Телеграм: @fnigor
+                                    </h2>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="team" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header th">
+                                    <h1 class="modal-title fs-7" id="contakts">Команда</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h2>Приглашу в команду опытных программистов.</h2><br>
+                                    <h2>Также с большиим удовольствием поработаю в сложившейся комаде единомышленников,
+                                        в дружественной и уважительной атмосфере!</h2>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p><a type="button" class="btn-primary" data-bs-toggle="modal" data-bs-target="#contakts">
+                            Контакты
+                        </a><br>
+                        <a type="button" class="btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#pop-ap-form">Заказы</a><br>
+                        <a type="button" class="btn-primary" data-bs-toggle="modal" data-bs-target="#team">
+                            Команда
+                        </a>
+                    </p>
+
+                </div>
+
+                <div class="col-lg-4 col-md-12 media-links">
+                    <a class="nav-link" href="mailto: luchigor@inbox.ru? subject=Обращение с предложением.">
+                        <img style="width: 41px; margin-inline: 1em;" src="source/files/envelope.jpg" alt="mail"></a>
+                    <a class="nav-link" href="https://t.me/fnigor" target="_blank"><img
+                            style="width: 30px; margin-inline: 1em;" src="source/files/tg.png" alt="tg"></a>
+                    <a class="nav-link" href="https://vk.com/id685263522" target="_blank"><img
+                            style="width: 30px; margin-inline: 1em;" src="source/files/vk.png" alt="vk"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="source/BootstrapJS/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

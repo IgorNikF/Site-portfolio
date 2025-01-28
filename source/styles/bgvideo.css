@@ -1,0 +1,37 @@
+.bgvideo {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: end;
+    
+}
+
+.bgvideo video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+/* Затемнение видео */
+.effect {
+    background-color: rgba(0, 0, 0, 0.2);   
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;    
+}
+
+.video-text {
+    text-transform: uppercase;
+    color: aquamarine;
+    z-index: 2;
+}

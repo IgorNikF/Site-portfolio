@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img>img {
+    max-width: 100%;
+}
+
+.idea-box {
+    background-color: blueviolet;
+    width: 10em;
+    height: 2em;
+}
+
+#pop-ap-form {
+    --bs-modal-width: 600px;
+
+}
+
+.contacts-form {
+    margin: 0% 2%;
+    /* padding: 2rem 9%; */
+    border: 1px;
+}
+
+.contacts-form .heading {
+    text-align: center;
+    color: aquamarine;
+    font-size: calc(25px + (70 - 25) * ((100vw - 300px) / (1600 - 300px)));
+}
+
+.contacts-form .heading span {
+    color: aqua;
+}
+
+.contacts-form .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.contacts-form .row .img {
+    flex: 1 1 30%;
+}
+
+.contacts-form .row form {
+    flex: 1 1 65%;
+    color: aquamarine;
+}
+
+.contacts-form .row form .box {
+    width: 100%;
+    margin: 0.2rem 0rem 0.5rem;
+    border-radius: .5rem;
+    padding: 0.1rem;
+}
+
+.contacts-form .row form .span {
+    color: bisque;
+    font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300px)));
+}
+
+.contacts-form .row form .idea-box {
+    width: 100%;
+    min-height: 5rem;
+    background-color: aliceblue;
+    /* color: rgb(150, 149, 149); */
+}
+
+.contacts-form .row form .gender {
+    margin: 1rem 5rem 1rem;
+}
+
+.contacts-form .row form .gender label {
+    margin-left: 0.1rem;
+    font-size: 1.2rem;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.contacts-form .row form .gender #female {
+    margin-left: 3rem;
+}
+
+.contacts-form .row form .gender input {
+    appearance: none;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: aliceblue;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contacts-form .row form .gender input:checked {
+    background-color: rgb(249, 110, 110);
+    border-radius: 50%;
+}
+
+.contacts-form .row form .gender #female:checked~label[for=female] {
+    color: yellow;
+}
+
+.contacts-form .row form .gender #male:checked~label[for=male] {
+    color: yellow;
+}
+
+.btn-conteiner-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-conteiner-form .btn_gen {
+    padding: 0.2rem 0.5rem;
+    border-radius: 1.5rem;
+    background-color: rgb(2, 2, 198);
+    color: aquamarine;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, .5);
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn_gen:hover {
+    background-color: rgb(19, 4, 138);
+}
+
+.modal-footer {
+    margin-top: 1em;
+    border-top: none;
+}
+
+/* Для возможности отправлять данные напрямую 
+на электронную почту переходим на сайт: web3forms.com, 
+выбрать HTML, сгенерировать код доступа введя свой e-mail, 
+ключ придет на почту.
+    Скопировать action и вставить адрес в тег form action=""
+    Скопировать input с type="hidden" и вставляем его внутрь 
+form, следующей строкой и в место фразы "YOUR_ACCESS_KEY_HERE" 
+вставляем присланный на почту ключ. */

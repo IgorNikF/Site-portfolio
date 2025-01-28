@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="source/BootstrapCSS/bootstrap.min.css">
+
+    <link rel="stylesheet" href="source/styles/mystyle.css">
+    <link rel="stylesheet" href="source/styles/bgvideo.css">
+    <link rel="stylesheet" href="source/styles/contact.css">
+    <link rel="stylesheet" href="source/styles/pop-up_windows.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
+
+    <title>Portfolio - IgorLuch</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="source/files/Logo.jpg" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text active" aria-current="page" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text" href="presentation.html">Презентация</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text" href="other.html">Разное</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto: luchigor@inbox.ru? subject=Обращение с предложением.">
+                                <img style="width: 41px; margin-left: 0.1em;" src="source/files/envelope.jpg"
+                                    alt="mail"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://t.me/fnigor" target="_blank">
+                                <img style="width: 30px; margin-inline: 0.1em;" src="source/files/tg.png" alt="tg"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://vk.com/id685263522" target="_blank">
+                                <img style="width: 30px; margin-left: 0.1em;" src="source/files/vk.png" alt="vk"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="bgvideo">
+            <video style="z-index: 0;" src="source/files/control_room.mp4" type="video/mp4" autoplay muted loop></video>
+
+            <!-- Затемнение за счёт наложения пустого тега div с полупрозрачным фоном -->
+            <div class="effect">
+            </div>
+            <div class="video-text">
+                <h1>Future's here</h1>
+            </div>
+        </div>
+
+
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col-lg-1">
+                </div>
+
+                <div class="col-lg-8 col-md-12">
+                    <div class="row">
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                    aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                                    aria-label="Slide 7"></button>
+                            </div>
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/files/coding.jpg" class="w-100" alt="coding">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <h3>Реализация кода</h3>
+                                                <p>Реализация кода, создание скриптов на языке Python и Cи.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/files/layout.jpg" class="w-100" alt="layout">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <h3>Создание сайтов</h3>
+                                                <p>Создание сайтов, как одностраничных, так и более сложных структур по
+                                                    желанию заказчика на фреймворке Django.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/files/typing.jpg" class="w-100" alt="presentation">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <h3>Текст</h3>
+                                                <p>Составление деловых, дружеских и других форм писем. Генерация любых
+                                                    текстовых документов с помощью инструментов нейросети.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img src="source/files/presentation.jpg" class="w-100"
+                                                    alt="presentation">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <h3>Презентация</h3>
+                                                <p>Создание презентации с помощью нейросетей.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img style="height: 90.3vh;"
+                                                    src="source/files/elephant in the cloud.jpg" class="w-100"
+                                                    alt="elephant_in_the_cloud">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <h3>Картинки</h3>
+                                                <p>Генерация картинок, создание анимации из картинки, создание видео
+                                                    материала из анимаций с помощью нейросетей.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div>
+                                                    <video style="object-fit: cover; width: 64vh; height: 89.3vh;"
+                                                        src="source/files/fox.mp4" type="video/mp4" autoplay muted
+                                                        loop></video>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <h3>Видео</h3>
+                                                <p>Генерация видео, мантаж, ноложение музыкального сопровождения,
+                                                    голосовое
+                                                    озвучивание с движением губ в такт речи с помощью инструментов
+                                                    нейросетей.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6">
+                                                <img style="height: 90.3vh;" src="source/images/avatar.jpg"
+                                                    class="w-100" alt="avatar">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 slide-text">
+                                                <h3>Аватар</h3>
+                                                <p>Создание аватара - говорящая голова, с помощью нейросетей.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 text-center mt-4">
+                            <button type="button" class="btn btn-outline-primary btn-lg my-4">Смотреть больше</button>
+                        </div>
+                        <div class="col-lg-12 col-md-12 text-center mt-4">
+                            <p>Чем я могу быть Вам полезен?</p>
+                        </div>
+                        <div class="col-lg-12 col-md-12 text-center">
+                            <a type="button" class="btn-primary" data-bs-toggle="modal" data-bs-target="#contakts">
+                                <img class="call-anim" style="width: 40px;" src="source/files/phone.png"
+                                    alt="phone"></a>
+                        </div>
+                        <div class="btn_back_form">
+                            <a type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#pop-ap-form">Форма обратной связи</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12">
+                    <div class="row px-2">
+                        <div class="col-lg-12 sidebar my-4">
+                            <h3>Здравствуйте!</h3>
+                            <p> Меня зовут Игорь. Я занимаюсь программированием со знанием языка Python и Си &
+                                Трансформирую идеи в искусственный
+                                интеллект, которые вдохновляют. Креативные решения в сфере AI и нейросетей.</p>
+                            <p class="p-link"><a class="p-link" type="button" data-bs-toggle="modal"
+                                    data-bs-target="#myself">Узнать больше>>></a></p>
+                        </div>
+
+                        <!-- Button trigger modal -->
+
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myself" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 style="text-indent: 15rem;" class="modal-title fs-5" id="exampleModalLabel">
+                                            Здравствуйте!</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p> Меня зовут Игорь. Я занимаюсь программированием со знанием языка Python и Си
+                                            &
+                                            Трансформирую идеи в искусственный
+                                            интеллект, которые вдохновляют. Креативные решения в сфере AI и нейросетей.
+                                        </p>
+                                        <p>
+                                            <h4>Python-разработчик.</h4>
+                                        <p>Дипломированный специалист с опытом самостоятельного обучения и практики</p>
+                                        </p>
+
+                                        <h4>О себе:</h4>
+
+                                        <p>
+                                            Я — дипломированный Python-разработчик, однако большая часть моих знаний и
+                                            навыков была получена благодаря самостоятельному обучению и практике. С 2021
+                                            года активно применяю Python для решения реальных задач, начиная от
+                                            разработки веб-приложений и заканчивая автоматизацией процессов. Постоянно
+                                            совершенствую свои навыки, изучаю новые технологии и frameworks, чтобы
+                                            оставаться в тренде и предлагать современные решения.
+                                        </p>
+
+                                        <h4>Ключевые навыки:</h4>
+
+                                        <p>
+                                            Разработка на Python: уверенное владение языком, понимание принципов ООП,
+                                            работа с библиотеками и frameworks (Flask, Django, FastAPI).
+                                        </p>
+                                        <p>
+
+                                            Работа с базами данных: проектирование и оптимизация SQL-запросов,
+                                            использование ORM (SQLAlchemy, Django ORM).
+                                        </p>
+                                        <p>
+                                            Создание RESTful API: разработка и интеграция API для взаимодействия между
+                                            сервисами.
+                                        </p>
+                                        <p>
+                                            Автоматизация: написание скриптов для автоматизации рутинных задач, парсинг
+                                            данных, работа с библиотеками (BeautifulSoup, Selenium).
+                                        </p>
+                                        <p>
+                                            Работа с Git: опыт использования системы контроля версий для командной
+                                            разработки.
+                                        </p>
+                                        <p>
+                                            Знание Docker: создание и управление контейнерами для упрощения
+                                            развертывания приложений.
+                                        </p>
+                                        <p>
+                                            Опыт работы с Linux: уверенное использование Ubuntu для разработки и
+                                            администрирования.
+                                        </p>
+                                        <p>
+                                            Базовые знания фронтенда: HTML, CSS, JavaScript для полноценной разработки
+                                            веб-приложений.
+                                        </p>
+                                        <p>
+                                            Нейросети и машинное обучение: прошел курс "Нейросети: практическое
+                                            применение в бизнесе", понимание принципов работы и применения нейросетей.
+                                        </p>
+
+                                        <h4>Опыт работы:</h4>
+
+                                        <p>2021 – настоящее время</p>
+                                        <p>Разработка и поддержка веб-приложений на Python (Flask, Django).</p>
+                                        <p>Создание и оптимизация баз данных, написание сложных SQL-запросов.</p>
+                                        <p>Разработка REST API для интеграции с внешними сервисами.</p>
+                                        <p>
+                                            Автоматизация процессов: написание скриптов для парсинга данных, обработки
+                                            файлов и выполнения рутинных задач.
+                                        </p>
+                                        <p>Участие в командных проектах, использование Git для контроля версий.</p>
+                                        <p>
+                                            Настройка и администрирование Linux-систем (Ubuntu) для разработки и деплоя
+                                            приложений.
+                                        </p>
+
+                                        <h4>Образование:</h4>
+
+                                        <p>Диплом Python-разработчика.</p>
+                                        <p>
+                                            Курс "Нейросети: практическое применение в бизнесе" (свидетельство об
+                                            окончании).
+                                        </p>
+                                        <p>
+                                            Самообразование: онлайн-курсы, книги, документация, участие в open-source
+                                            проектах.
+                                        </p>
+
+                                        <h4>Личные качества:</h4>
+
+                                        <p>Ответственность и внимательность к деталям.</p>
+                                        <p>Умение работать как самостоятельно, так и в команде.</p>
+                                        <p>Готовность учиться и развиваться в профессиональной сфере.</p>
+                                        <p>Нацеленность на результат и качественное выполнение задач.</p>
+                                        <p>
+                                            Большое желание развиваться в сфере разработки и применять свои знания на
+                                            практике.
+                                        </p>
+
+                                        <h4>Почему я?</h4>
+                                        <p>
+                                            Я не просто пишу код — я создаю решения, которые упрощают жизнь и
+                                            бизнес-процессы. Мой опыт, диплом и стремление к постоянному развитию
+                                            позволяют мне быстро адаптироваться к новым задачам и предлагать эффективные
+                                            решения. Я готов внести вклад в ваш проект и стать частью команды, которая
+                                            создает качественный продукт.
+                                        </p>
+                                        <p>
+                                            Моими сильными сторонами являются аналитическое мышление,
+                                            дисциплинированность, умение решать сложные задачи и находить, как простые,
+                                            так и нестандартные решения.
+                                        </p>
+                                        <p> Предлогаю свою кандидатуру для сотрудничества в хорошей компании.
+                                            Вдохновляюсь
+                                            возможностью присоединиться к команде профессионалов, работающих над
+                                            инновационными проектами, и готов внести свой вклад, используя свои знания и
+                                            опыт в полном объеме.
+                                        <p>
+                                            Готов активно участвовать в разработке инновационных продуктов и приложить
+                                            максимум усилий для реализации задач вашей компании. Буду рад возможности
+                                            обсудить, как мои знания и опыт могут быть полезны вашей команде.
+                                        <p></p>
+                                        </p>
+                                        <p style="text-indent: 10rem;">С уважением.
+                                            <span style="padding-left: 2rem;">Игорь Ф.</span>
+                                        </p>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 sidebar my-4">
+                            <h3>Навыки.</h3>
+                            <div style="text-align: center;">
+                                <img style="width: 34%; padding-right: 4%;" src="source/diploms/diplom-wrap.jpg"
+                                    alt="diplom-wrap">
+                                <img width="62%" src="source/diploms/neirosety-sertifikat.jpg" alt="neiroseny-sertif">
+                            </div>
+                            <p></p>
+                            <p class="p-link"><a href="skills.html">Узнать больше>>></a></p>
+                        </div>
+                        <div class="col-lg-12 sidebar my-4">
+                            <h3>Трудовой вклад</h3>
+                            <p>С 2021 года активно занимаюсь изучением и применением на практике языка Python
+                            <p class="p-link"><a href="#">Узнать больше>>></a></p>
+                            </p>
+                        </div>
+                        <div class="col-lg-12 sidebar my-4">
+                            <h3>Амбиции</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit suscipit doloribus ipsum
+                                porro voluptatum possimus explicabo ea, quam nesciunt mollitia doloremque eligendi
+                                aperiam! Impedit, natus.
+                            <p class="p-link"><a href="#">Узнать больше>>></a></p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- pop-ap_window start -->
+        <!-- Modal -->
+        <div class="modal fade" id="pop-ap-form" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="contacts-form" id="contacts-form">
+                            <h2 class="heading">фрома обратной связи</h2>
+                            <div class="row">
+                                <form action="https://api.web3forms.com/submit" method="POST">
+                                    <input type="hidden" name="access_key" value="42b4ea7b-bf8c-4707-a613-9bfa81782b78">
+
+                                    <span>Ваше имя</span>
+                                    <input type="text" name="Имя:" id="" class="box" required
+                                        placeholder="Введите Ваше имя..." autocomplete="off">
+
+                                    <span>Ваш e-mail</span>
+                                    <input type="email" name="e-mail:" id="" class="box" required
+                                        placeholder="Введите Ваш e-mail..." autocomplete="off">
+
+                                    <span>Ваш номер телефона</span>
+                                    <input type="phone" name="Номер тел:" id="" class="box" required
+                                        placeholder="Введите Ваш номер телефона..." autocomplete="off">
+
+                                    <span>Опишите свою креативную идею, предложение, заказ, замечания, пожелания.</span>
+                                    <textarea name="Отправлен текст:" class="idea-box" required
+                                        placeholder="Введите текс здесь..."></textarea>
+
+                                    <span>Выберети пол</span>
+                                    <div class="gender">
+                                        <input type="radio" name="Пол:" id="male" value="male">
+                                        <label for="male">мужской</label>
+
+                                        <input type="radio" name="Пол:" id="female" value="female">
+                                        <label for="female">женский</label>
+
+                                    </div>
+                                    <div class="btn-conteiner-form">
+                                        <input type="submit" value="Отправить данные" class="btn_gen sub" name="send">
+                                        <input type="reset" value="Очистить форму" class="btn_gen res" name="send"
+                                            style="margin-left: 4rem;">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pop-ap_window end -->
+    </section>
+
+    <footer class="mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 footer-text text-center">
+                    <p>Все права защищены 2024</p>
+                </div>
+                <div class="col-lg-4 col-md-12 footer-text text-center">
+                    <!-- Modal -->
+                    <div class="modal fade" id="contakts" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header th">
+                                    <h1 class="modal-title fs-7" id="contakts">Контакты</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h2>Тел: +7 906 607 5090<br><br>e-mail: luch.in@mail.ru<br><br>Телеграм: @fnigor
+                                    </h2>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="team" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header th">
+                                    <h1 class="modal-title fs-7" id="contakts">Команда</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h2>Приглашу в команду опытных программистов.</h2><br>
+                                    <h2>Также с большиим удовольствием поработаю в сложившейся комаде единомышленников,
+                                        в дружественной и уважительной атмосфере!</h2>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p><a type="button" class="btn-primary" data-bs-toggle="modal" data-bs-target="#contakts">
+                            Контакты
+                        </a><br>
+                        <a type="button" class="btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#pop-ap-form">Заказы</a><br>
+                        <a type="button" class="btn-primary" data-bs-toggle="modal" data-bs-target="#team">
+                            Команда
+                        </a>
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-12 media-links">
+                    <a class="nav-link" href="mailto: luchigor@inbox.ru? subject=Обращение с предложением.">
+                        <img style="width: 41px; margin-inline: 1em;" src="source/files/envelope.jpg" alt="mail"></a>
+                    <a class="nav-link" href="https://t.me/fnigor" target="_blank"><img
+                            style="width: 30px; margin-inline: 1em;" src="source/files/tg.png" alt="tg"></a>
+                    <a class="nav-link" href="https://vk.com/id685263522" target="_blank"><img
+                            style="width: 30px; margin-inline: 1em;" src="source/files/vk.png" alt="vk"></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="source/BootstrapJS/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

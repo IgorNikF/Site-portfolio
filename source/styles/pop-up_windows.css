@@ -1,0 +1,92 @@
+#pop-ap_link {
+    background-color: rgb(2, 92, 8);
+    color: aquamarine;
+    width: 70%;
+    height: 30em;
+    border-radius: 2em;
+    border: 0.3em solid #000;
+    margin-left: 15%;
+    padding-top: .7%;
+    display: none;
+}
+
+#pop-ap_link .close {
+    color: rgb(60, 225, 5);
+    padding-left: 95%;
+}
+
+#pop-ap_link:target {
+    display: block;
+}
+
+/* Начало модального окна карточки */
+.modal .fade {
+    background-color: black;
+}
+
+.modal {
+    --bs-modal-width: 900px;
+    --bs-modal-padding: 0;
+    --bs-modal-header-border-color: none;
+    --bs-modal-footer-border-color: none;
+}
+
+.modal-title, .btn-close {
+    color: aquamarine;
+}
+
+.md-content {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.md-content .modal-body img {
+    width: 100%;
+}
+
+.modal-img img {
+    width: 100%;
+}
+
+.btn-secondary {
+    --bs-btn-bg: #011990;
+    --bs-btn-hover-bg: rgb(11, 2, 114);
+    --bs-btn-hover-color: rgb(69, 192, 151);
+    color: aquamarine;
+
+}
+/* Конец модально окна карточки */
+
+/* Модальное окно кнопок footer */
+.modal-content {
+    background: linear-gradient(270deg, #0400ff 0%, #141414 100%);
+    /* background-color: blue; */
+}
+
+#contakts {
+    --bs-modal-width: 700px;
+    justify-content: center;
+}
+
+.modal-body {
+    text-decoration: dashed;
+}
+
+.modal-body h4 {
+    text-align: center;
+    color: aquamarine;
+}
+
+.btn-primary {
+    text-decoration: none;
+    color: aquamarine;   
+}
+
+.modal-body .school21 {
+    width: 100%;
+    padding: 2rem;
+}
+
